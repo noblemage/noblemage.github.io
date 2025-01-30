@@ -1,129 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my portfolio.</title>
-    <style>
-        body {
-            font-family: "Roboto Mono", sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #111111;
-            position: relative;
-        }
 
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
+    <head>
+
+        <!-- For the font - ROBOTO MONO -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+
+        <link rel="icon" type="image/x-icon" href="ico.png">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>noble j.</title>
+
+    </head>
+
+    <body bgcolor="#28282B">
+
+        <div class="card">
+            <img src="PFP.jpg" alt="Profile Picture" class="profile-picture">
+            <h1>noble🍀</h1>
+            <p>learning web development; python.</p>
+            <p class="link">
+                <a style="font-size: 1.3rem;">⤷</a><a href="https://github.com/noblemage">github</a> <br>
+                <a style="font-size: 1.3rem;">⤷</a><a href="https://instagram.com/nblj.ig">instagram</a> <br>
+                <a style="font-size: 1.3rem;">⤷</a><a href="https://snapchat.com/add/noblej.snap">snapchat</a> <br>
+            </p>
+        </div>
         
-        .card {
-            background-color: #1e1e1e;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            width: 365px;
-            padding: 20px;
-            position: relative;
-            transition: 0.3s;
-            border: 2px solid #3a3a3a;
-        }
+        <div class="email-contact">
+            <a href="mailto:dnr05agz@anonaddy.com">email me</a>
+        </div>
 
-        .card:hover {
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        }
-
-        .profile-picture {
-            position: absolute;
-            top: -40px;
-            right: 20px;
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            border: 5px solid #3a3a3a;
-            object-fit: cover;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            font-size: 1.8rem;
-            margin: 0;
-            color: #b1b1b1;
-        }
-
-        p {
-            margin-top: 10px;
-            line-height: 1.4;
-            color: #b1b1b1;
-        }
-
-        .link {
-            text-decoration: none;
-            color: inherit;
-            margin-left: 5px;
-            color: #b1b1b1;
-            text-decoration: none;
-            margin-top: 10px;
-            line-height: 1.4;
-        }
-
-        .link a{
-            color: #b1b1b1;
-            text-decoration: none;
-            margin-top: 10px;
-            line-height: 1.4;
-            margin-left: 5px;
-        }
-
-        .link a:hover {
-            text-decoration: underline;
-        }
-        
-        .email-contact {
-            text-align: center;
-            margin-top: 5px;
-            animation: fadeIn 1s;
-        }
-
-        .email-contact a {
-            color: #3f3f3f;
-            text-decoration: none;
-            font-size: 1rem;
-            font-weight: 500;
-        }
-
-        .email-contact a:hover {
-            text-decoration: underline;
-            
-        }
-
-    </style>
-</head>
-<body bgcolor="#28282B">
-    <div class="card">
-        <img src="PFP.jpg" alt="Profile Picture" class="profile-picture">
-        <h1>noble🍀</h1>
-        <p>learning web development; python.</p>
-        <p class="link">
-            <a style="font-size: 1.3rem;">⤷</a><a href="https://github.com/noblemage">github</a> <br>
-            <a style="font-size: 1.3rem;">⤷</a><a href="https://instagram.com/nblj.ig">instagram</a> <br>
-            <a style="font-size: 1.3rem;">⤷</a><a href="https://snapchat.com/add/noblej.snap">snapchat</a> <br>
-        </p>
-    </div>
-    <div class="email-contact">
-        <a href="mailto:dnr05agz@anonaddy.com">email me</a>
-    </div>
-</body>
+    </body>
 </html>
