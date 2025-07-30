@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
     background-color: #141414;
     position: relative;
-    /* background-image: url(noise.png); */
+    background-image: url(noise.png);
     background-attachment: fixed;
 }
 
@@ -45,7 +45,6 @@ body {
     transition: 0.3s;
     border: 2px solid #3a3a3a;
     animation: SlideIn 1s;
-    background-image: url(noise.png);
 }
 
 .card-curl {

@@ -31,7 +31,7 @@ function flipCard() {
     document.getElementById("links").innerHTML = `
         building simple, minimal experiences.
         <ul>
-            <li><a href="#">placeholder</a></li>
+            <li><a href="#">Coming soon.</a></li>
         </ul>
     `;
 
